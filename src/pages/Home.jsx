@@ -13,7 +13,7 @@ const Home = () => {
               <h2>Our Games</h2>
               <div>
                 <div className="grid">
-                  <GameBox>
+                  <GameBox linkTo={"QuickDraw"}>
                     <h3>Quick Draw</h3>
                     <p>A vr game about speed and accuracy of shooting</p>
                   </GameBox>
