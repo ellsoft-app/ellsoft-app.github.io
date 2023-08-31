@@ -27,3 +27,9 @@ body {
   align-items: center;
   flex-direction: column;
 }
+
+html,
+body,
+#root {
+  height: 100vh;
+}
