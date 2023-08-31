@@ -1,0 +1,29 @@
+* {
+  background-color: #20232a;
+  color: #e8e6d8;
+  user-select: none;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(1, 1fr);
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
+}
+
+.gp {
+  width: 99%;
+}
+
+.gpp {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
