@@ -9,17 +9,49 @@ const QDPP = () => {
         by EllSoft at no cost and is intended for use as is.
       </p>{" "}
       <p>
-        This page is used to inform visitors regarding my policies with the
+        This page is used to inform visitors regarding our policies with the
         collection, use, and disclosure of Personal Information if anyone
-        decided to use my Service.
+        decided to use our Service.
       </p>{" "}
       <p>
-        If you choose to use my Service, then you agree to the collection and
+        If you choose to use our Service, then you agree to the collection and
         use of information in relation to this policy. The Personal Information
-        that I collect is used for providing and improving the Service. I will
+        that we collect is used for providing and improving the Service. We will
         not use or share your information with anyone except as described in
         this Privacy Policy.
       </p>{" "}
+      <p>
+        You may ask for a copy of your Personal Information together with
+        specified details about how we use your information - commonly known as
+        a 'subject access request'. We do our best to ensure that any Personal
+        Information we collect is accurate and kept up to date You may ask us to
+        erase your Personal Information, but this right only applies in certain
+        circumstances, e.g. where:
+        <ul>
+          <li>
+            It is no longer necessary for us to use your Personal Information
+            for the original purpose;
+          </li>{" "}
+          <li>
+            Our lawful basis for using your Personal Information is consent and
+            you withdraw your consent; or
+          </li>{" "}
+          <li>
+            Our lawful basis is legitimate interests and there is no overriding
+            legitimate interest to continue using your Personal Information if
+            you object.
+          </li>
+        </ul>
+        This isn't an absolute right and we have to balance your request against
+        other factors such as legal or regulatory requirements, which may mean
+        we cannot erase your Personal Information.
+      </p>
+      <p>
+        If you would like a copy for the information we hold about you, believe
+        your information is inaccurate or incomplete or wish us to erase your
+        personal information then please contact us at{" "}
+        <a href="mailto:support@ellsoft.app">support@ellsoft.app</a>
+      </p>
       <p>
         The terms used in this Privacy Policy have the same meanings as in our
         Terms and Conditions, which are accessible at Quick Draw unless
@@ -29,9 +61,9 @@ const QDPP = () => {
         <strong>Information Collection and Use</strong>
       </p>{" "}
       <p>
-        For a better experience, while using our Service, I may require you to
+        For a better experience, while using our Service, we may require you to
         provide us with certain personally identifiable information. The
-        information that I request will be retained on your device and is not
+        information that we request will be retained on your device and is not
         collected by me in any way.
       </p>{" "}
       <div>
@@ -59,12 +91,12 @@ const QDPP = () => {
         <strong>Log Data</strong>
       </p>{" "}
       <p>
-        I want to inform you that whenever you use my Service, in a case of an
-        error in the app I collect data and information (through third-party
+        We want to inform you that whenever you use our Service, in a case of an
+        error in the app we collect data and information (through third-party
         products) on your phone called Log Data. This Log Data may include
         information such as your device Internet Protocol (“IP”) address, device
         name, operating system version, the configuration of the app when
-        utilizing my Service, the time and date of your use of the Service, and
+        utilizing our Service, the time and date of your use of the Service, and
         other statistics.
       </p>{" "}
       <p>
@@ -87,7 +119,7 @@ const QDPP = () => {
         <strong>Service Providers</strong>
       </p>{" "}
       <p>
-        I may employ third-party companies and individuals due to the following
+        We may employ third-party companies and individuals due to the following
         reasons:
       </p>{" "}
       <ul>
@@ -97,7 +129,7 @@ const QDPP = () => {
         <li>To assist us in analyzing how our Service is used.</li>
       </ul>{" "}
       <p>
-        I want to inform users of this Service that these third parties have
+        We want to inform users of this Service that these third parties have
         access to their Personal Information. The reason is to perform the tasks
         assigned to them on our behalf. However, they are obligated not to
         disclose or use the information for any other purpose.
@@ -106,10 +138,10 @@ const QDPP = () => {
         <strong>Security</strong>
       </p>{" "}
       <p>
-        I value your trust in providing us your Personal Information, thus we
+        We value your trust in providing us your Personal Information, thus we
         are striving to use commercially acceptable means of protecting it. But
         remember that no method of transmission over the internet, or method of
-        electronic storage is 100% secure and reliable, and I cannot guarantee
+        electronic storage is 100% secure and reliable, and we cannot guarantee
         its absolute security.
       </p>{" "}
       <p>
@@ -118,8 +150,8 @@ const QDPP = () => {
       <p>
         This Service may contain links to other sites. If you click on a
         third-party link, you will be directed to that site. Note that these
-        external sites are not operated by me. Therefore, I strongly advise you
-        to review the Privacy Policy of these websites. I have no control over
+        external sites are not operated by me. Therefore, we strongly advise you
+        to review the Privacy Policy of these websites. We have no control over
         and assume no responsibility for the content, privacy policies, or
         practices of any third-party sites or services.
       </p>{" "}
@@ -128,22 +160,21 @@ const QDPP = () => {
       </p>{" "}
       <div>
         <p>
-          These Services do not address anyone under the age of 13. I do not
+          These Services do not address anyone under the age of 13. We do not
           knowingly collect personally identifiable information from children
-          under 13 years of age. In the case I discover that a child under 13
-          has provided me with personal information, I immediately delete this
+          under 13 years of age. In the case we discover that a child under 13
+          has provided me with personal information, we immediately delete this
           from our servers. If you are a parent or guardian and you are aware
           that your child has provided us with personal information, please
-          contact me so that I will be able to do the necessary actions.
+          contact me so that we will be able to do the necessary actions.
         </p>
       </div>
       <p>
         <strong>Changes to This Privacy Policy</strong>
       </p>{" "}
       <p>
-        I may update our Privacy Policy from time to time. Thus, you are advised
-        to review this page periodically for any changes. I will notify you of
-        any changes by posting the new Privacy Policy on this page.
+        We may update our Privacy Policy from time to time. Thus, you are
+        advised to review this page periodically for any changes.
       </p>
     </div>
   );

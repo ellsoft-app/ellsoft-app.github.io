@@ -3,7 +3,7 @@ import "../styles/ABQD.scss";
 
 const ABQD = () => {
   const get = () => {
-    alert("Unfortuantly, This has not been relesed yet. SORRY!!");
+    window.location.href = "/#/QuickDraw/get";
   };
 
   return (
