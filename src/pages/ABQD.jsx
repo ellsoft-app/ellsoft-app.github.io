@@ -1,5 +1,6 @@
 import React from "react";
 import "../styles/ABQD.scss";
+import { Link } from "react-router-dom";
 
 const ABQD = () => {
   const get = () => {
@@ -12,6 +13,11 @@ const ABQD = () => {
       <button className="QDBTN" onClick={get}>
         GET IT NOW
       </button>
+
+      <div className="PPANDTC">
+        <Link to={"PP"}>Privacy Policy</Link> ||{" "}
+        <Link to={"TC"}>Terms of Service</Link>
+      </div>
     </div>
   );
 };

@@ -1,5 +1,5 @@
 import { HashRouter, Route, Routes } from "react-router-dom";
-import "./styles/index.css";
+import "./styles/index.scss";
 import Home from "./pages/Home";
 import ABQD from "./pages/ABQD";
 import QDPP from "./pages/QDPP";

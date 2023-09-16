@@ -2,7 +2,7 @@ import React from "react";
 
 const QDTC = () => {
   return (
-    <div>
+    <div className="TC">
       <strong>Terms &amp; Conditions</strong>{" "}
       <p>
         By downloading or using the app, these terms will automatically apply to
@@ -92,6 +92,7 @@ const QDTC = () => {
         We may update our Terms and Conditions from time to time. Thus, you are
         advised to review this page periodically for any changes.
       </p>
+      <div className="spacer"></div>
     </div>
   );
 };

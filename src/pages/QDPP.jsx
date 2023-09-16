@@ -2,7 +2,7 @@ import React from "react";
 
 const QDPP = () => {
   return (
-    <div>
+    <div className="PP">
       <strong>Privacy Policy</strong>
       <p>
         EllSoft built the Quick Draw app as a Free app. This SERVICE is provided
@@ -176,6 +176,7 @@ const QDPP = () => {
         We may update our Privacy Policy from time to time. Thus, you are
         advised to review this page periodically for any changes.
       </p>
+      <div className="spacer"></div>
     </div>
   );
 };

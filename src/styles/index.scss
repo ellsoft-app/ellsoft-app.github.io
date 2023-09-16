@@ -1,0 +1,66 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+}
+
+html,
+body,
+#root,
+#root > div {
+  height: 91vh;
+  width: 99%;
+}
+
+.centerofattention {
+  font-size: 5rem;
+  padding-top: 50px;
+  text-align: center;
+  text-decoration: black dashed underline;
+}
+
+.games {
+  margin-top: 20vh;
+  height: 35vh;
+
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+
+.gb {
+  text-decoration: none;
+  color: inherit;
+
+  text-align: center;
+}
+
+.PPANDTC {
+  bottom: 10px;
+  left: 10px;
+  position: absolute;
+
+  * {
+    color: inherit;
+    text-decoration: none;
+  }
+}
+
+.PP,
+.TC {
+  > strong {
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+  }
+
+  li {
+    list-style-type: disclosure-closed;
+  }
+
+  .spacer {
+    height: 10px;
+  }
+}
