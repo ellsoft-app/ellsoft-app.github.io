@@ -1,10 +1,10 @@
 import { HashRouter, Route, Routes } from "react-router-dom";
 import "./styles/index.scss";
 import Home from "./pages/Home";
-import ABQD from "./pages/ABQD";
-import QDPP from "./pages/QDPP";
-import QDTC from "./pages/QDTC";
-import QDGT from "./pages/QDGT";
+import ABQD from "./pages/QD/ABQD";
+import QDPP from "./pages/QD/QDPP";
+import QDTC from "./pages/QD/QDTC";
+import QDGT from "./pages/QD/QDGT";
 
 function App() {
   return (

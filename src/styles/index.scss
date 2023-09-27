@@ -22,6 +22,21 @@ body,
   text-decoration: black dashed underline;
 }
 
+#menu {
+  text-align: center;
+  height: 100px;
+  width: 100%;
+
+  font-size: 5rem;
+  align-items: center;
+  justify-content: center;
+
+  > div {
+    background-color: white;
+    width: 555px;
+  }
+}
+
 .games {
   margin-top: 20vh;
   height: 35vh;
