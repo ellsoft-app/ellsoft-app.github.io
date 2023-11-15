@@ -1,30 +1,7 @@
-import React, { useEffect, useState } from "react";
+import React from "react";
 import GameBox from "../Components/GameBox";
 
 const Home = () => {
-  const [menuOpen, setMenuOpen] = useState(false);
-
-  function openNav() {
-    document.getElementById("menu").style.display = "flex";
-    document.getElementById("main").style.marginTop = "250px";
-    document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
-  }
-
-  function closeNav() {
-    document.getElementById("menu").style.display = "none";
-    document.getElementById("main").style.marginTop = "0";
-    document.body.style.backgroundColor = "white";
-  }
-
-  useEffect(() => {
-    if (menuOpen) openNav();
-    else closeNav();
-  }, [openNav]);
-
-  const TOTHEVOID = () => {
-    window.location = "https://void.ellsoft.app";
-  };
-
   return (
     <div>
       <h1
@@ -36,10 +13,6 @@ const Home = () => {
         ELLSOFT
       </h1>
 
-      <div id="menu">
-        <div onClick={TOTHEVOID}>The Void Awaits</div>
-      </div>
-
       <div id="main">
         <div className="games">
           <div></div>
@@ -49,6 +22,10 @@ const Home = () => {
           </GameBox>
           <div></div>
         </div>
+      </div>
+
+      <div className="bt">
+        <a href="mailto:ideas@ellsoft.app">Any ideas? Click here</a>
       </div>
     </div>
   );

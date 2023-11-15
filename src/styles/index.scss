@@ -63,6 +63,17 @@ body,
   }
 }
 
+.bt {
+  bottom: 10px;
+  left: 10px;
+  position: absolute;
+
+  * {
+    color: inherit;
+    text-decoration: none;
+  }
+}
+
 .PP,
 .TC {
   > strong {
