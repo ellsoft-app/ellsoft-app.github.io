@@ -4,14 +4,7 @@ import GameBox from "../Components/GameBox";
 const Home = () => {
   return (
     <div>
-      <h1
-        className="centerofattention"
-        onClick={() => {
-          setMenuOpen(!menuOpen);
-        }}
-      >
-        ELLSOFT
-      </h1>
+      <h1 className="centerofattention">ELLSOFT</h1>
 
       <div id="main">
         <div className="games">
