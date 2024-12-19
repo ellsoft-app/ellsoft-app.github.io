@@ -1,4 +1,5 @@
 import { Bolt } from "lucide-react";
+import { Link } from "react-router-dom";
 
 const Autotok = () => {
   return (
@@ -6,6 +7,8 @@ const Autotok = () => {
       <div className="flex text-2xl p-2 w-auto">
         <Bolt size={32} /> <div className="w-2" />
         Autotok <div className="ml-auto" />
+        <Link to={"/autotok/pp"}>Privacy Policy</Link>
+        <Link to={"/autotok/tos"}>Terms Of Service</Link>
         <button title="Coming soon" disabled>
           Login
         </button>
